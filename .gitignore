@@ -1,0 +1,40 @@
+# Build artifacts
+.buildozer/
+bin/
+*.apk
+*.aab
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Build logs
+build_output.log
+build_lobby.json
+*.log
+
+# Temporary build files
+BUILD_NOW.txt
+APK_BUILD_SUMMARY.md
+QUICK_BUILD.md
+README_ANDROID.md
+INSTALL_DEPENDENCIES.sh
+config.txt.template
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
